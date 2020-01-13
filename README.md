@@ -1,10 +1,10 @@
 # SRM
 "SRM.m" is a MATLAB code implementation of the smoothing regularization method in the submission to Optics Express, entitled "Least-squares and smoothing regularization methods for reconstructing Stokes parameters from division-of-focal-plane modulation".
 
-Input:
+Input: 
 DoFP image (img), modulation parameters (m0, m1, and m2), and regularization parameters (lmd0, lmd1, and lmd2).
 
-Output:
+Output: 
 Stokes parameters (s0, s1, and s2)
 
-Notice that the regularization parameters needs to be per-processed by the scaling and rotation tranformation given in the appendix A of the submission.
+Notice that the regularization parameters needs to be per-processed by the scaling and rotation tranformation given in the Appendix A of the submission.
